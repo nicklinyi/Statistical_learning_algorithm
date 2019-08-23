@@ -22,5 +22,5 @@ def classify0(inX, dataSet, labels, k):
     return sortedClassCount[0][0] 
 
 if __name__ == "__main__":
-    group, labels = kNN.createDataSet()
-    kNN.classify0([0,0], group, labels, 3)
+    group, labels = createDataSet()
+    classify0([0,0], group, labels, 3)
